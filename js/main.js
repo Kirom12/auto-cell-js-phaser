@@ -4,6 +4,7 @@ var gameData = {
 	height : 800
 }
 
+//@TODO : pass parameters tile height/width
 var game = new Phaser.Game(gameData.width, gameData.height, Phaser.AUTO, 'game');
 
 game.state.add('play', PlayState);
